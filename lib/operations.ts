@@ -3,6 +3,7 @@ import { z } from "zod";
 import { transaction } from "./db";
 import { audit } from "./audit";
 import {
+  BusinessError,
   orgInput,
   contactInput,
   normalizeDomain,
@@ -31,13 +32,27 @@ export async function operate(input: unknown, actor: string): Promise<unknown> {
   switch (raw.action) {
     case "research.import": {
       const data = z.object({ json: text.max(1_000_000) }).parse(raw.data);
-      return importResearch(JSON.parse(data.json), "manual", actor);
+      let parsed: unknown;
+      try {
+        parsed = JSON.parse(data.json);
+      } catch {
+        throw new BusinessError("Invalid research JSON");
+      }
+      return importResearch(parsed, "manual", actor);
     }
     case "research.sync": {
       const data = z
         .object({ force: z.boolean().default(true) })
         .parse(raw.data);
-      return syncGithubResearch(data.force);
+      const result = await syncGithubResearch(data.force);
+      if (!("skipped" in result))
+        await transaction((db) =>
+          audit(db, actor, "research.synced", null, {
+            force: data.force,
+            ...result,
+          }),
+        );
+      return result;
     }
     case "organization.create": {
       const v = orgInput.parse(raw.data);

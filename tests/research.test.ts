@@ -270,3 +270,9 @@ it("a failed GitHub sync is visible and retryable without claiming successful tr
   expect(state.status).toBe("error");
   expect(state.last_success_at).toBeNull();
 });
+
+it("manual JSON import reports invalid JSON without a server error", async () => {
+  await expect(
+    operate({ action: "research.import", data: { json: "{" } }, "test"),
+  ).rejects.toMatchObject({ status: 400 });
+});
