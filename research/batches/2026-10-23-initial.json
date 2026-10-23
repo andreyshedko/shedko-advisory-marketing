@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "runId": "codex:2026-10-23:integration-check",
+  "producer": "codex",
+  "query": "Первичное исследование международных покупателей software и M&A-партнёров для проверки интеграции",
+  "researchedAt": "2026-10-23T19:31:23.729Z",
+  "records": [
+    {
+      "name": "Software Equity Group",
+      "website": "https://softwareequity.com",
+      "country": "Not confirmed",
+      "kind": "advisor",
+      "relevance": "Гипотеза релевантности: специализация на sell-side M&A программных компаний и сопровождение due diligence могут создавать возможности для независимой технической экспертизы. Интерес к партнёрству не подтверждён.",
+      "sources": [
+        {
+          "url": "https://softwareequity.com/services/",
+          "note": "Официальная страница описывает M&A-услуги для software-компаний и управление этапом due diligence."
+        }
+      ]
+    },
+    {
+      "name": "Tiny",
+      "website": "https://tiny.com",
+      "country": "Not confirmed",
+      "kind": "acquirer",
+      "relevance": "Гипотеза релевантности: прямой покупатель SaaS и software-компаний может нуждаться в технической оценке приобретаемых активов. Потребность во внешнем консультанте не подтверждена.",
+      "contactChannel": "https://tiny.com/sell-your-saas",
+      "sources": [
+        {
+          "url": "https://tiny.com/sell-your-saas",
+          "note": "Официальная страница подтверждает приобретение прибыльных SaaS и software-бизнесов у основателей и перечисляет критерии интереса."
+        }
+      ]
+    },
+    {
+      "name": "saas.group",
+      "website": "https://saas.group",
+      "country": "Not confirmed",
+      "kind": "acquirer",
+      "relevance": "Гипотеза релевантности: регулярное приобретение SaaS-компаний создаёт потенциальную потребность в независимом technical due diligence. Наличие открытой партнёрской программы не подтверждено.",
+      "sources": [
+        {
+          "url": "https://saas.group/",
+          "note": "Официальная страница прямо описывает покупку SaaS-компаний и сохранение самостоятельности приобретённых продуктов и команд."
+        }
+      ]
+    }
+  ]
+}

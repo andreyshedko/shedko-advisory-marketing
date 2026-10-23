@@ -1,3 +1,4 @@
+import type { ResearchPayload } from "./research";
 export interface Organization {
   id: string;
   name: string;
@@ -160,6 +161,27 @@ export interface DashboardData {
   jobs: Job[];
   integrations: Integration[];
   discoveries: Discovery[];
+  researchRuns: {
+    id: string;
+    run_key: string;
+    producer: string;
+    transport: string;
+    query: string;
+    researched_at: string;
+    received_at: string;
+    created_count: number;
+    matched_count: number;
+    conflict_count: number;
+  }[];
+  researchRecords: {
+    id: string;
+    run_id: string;
+    organization_id: string | null;
+    organization: string | null;
+    candidate: ResearchPayload["records"][number];
+    outcome: string;
+    note: string;
+  }[];
   metrics: Record<string, number>;
   totals: { currency: string; source: string; amount: number }[];
   reports: {

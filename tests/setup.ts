@@ -54,7 +54,7 @@ beforeAll(async () => {
 });
 beforeEach(async () => {
   await pool().query(
-    'TRUNCATE opportunity_events,marketing_reports,organizations,contacts,evidence,partner_programs,partner_applications,outreach_messages,outreach_events,suppressions,tasks,opportunities,campaigns,spend_records,activity_log,integration_status,job_runs,discovery_results,"user",session,account,verification,"rateLimit" CASCADE',
+    'TRUNCATE research_remote_files,research_records,research_runs,opportunity_events,marketing_reports,organizations,contacts,evidence,partner_programs,partner_applications,outreach_messages,outreach_events,suppressions,tasks,opportunities,campaigns,spend_records,activity_log,integration_status,job_runs,discovery_results,"user",session,account,verification,"rateLimit" CASCADE',
   );
   for (const key of [
     "SMTP_HOST",
@@ -63,6 +63,11 @@ beforeEach(async () => {
     "SMTP_FROM",
     "OUTREACH_FOOTER",
     "BRAVE_SEARCH_API_KEY",
+    "RESEARCH_GITHUB_REPOSITORY",
+    "RESEARCH_GITHUB_TOKEN",
+    "RESEARCH_GITHUB_PUBLIC",
+    "RESEARCH_GITHUB_LOCAL_CLI",
+    "RESEARCH_INGEST_SECRET",
   ])
     delete process.env[key];
   process.env.DAILY_BUDGETS = "{}";

@@ -147,3 +147,9 @@ Unit/integration: отдельная локальная база `shedko_marketi
 - [Google Ads API access levels](https://developers.google.com/google-ads/api/docs/api-policy/access-levels)
 - [Vercel Cron frequency and limits](https://vercel.com/docs/cron-jobs/usage-and-pricing)
 - [Vercel Hobby and commercial use](https://vercel.com/docs/plans/hobby)
+
+## Результаты регулярного поиска ChatGPT
+
+Импорт компаний и источников из `research/batches` этого репозитория реализован через GitHub-синхронизацию, ручной JSON и отдельный HTTPS-приёмник. Записи остаются непроверенными, конфликты имён и доменов выносятся на проверку; статусы и отказы не перезаписываются. Облачная задача ChatGPT и её право записи проверяются отдельно от импорта в приложение.
+
+Схема, настройки, ограничения и запуск: [RESEARCH_INTEGRATION.md](docs/RESEARCH_INTEGRATION.md).

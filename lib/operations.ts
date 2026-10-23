@@ -24,9 +24,21 @@ import {
 } from "./outreach";
 import { importAds, parseAdsCsv } from "./ads";
 import { runJobs } from "./jobs";
+import { importResearch } from "./research";
+import { syncGithubResearch } from "./research-github";
 export async function operate(input: unknown, actor: string): Promise<unknown> {
   const raw = z.object({ action: z.string(), data: z.unknown() }).parse(input);
   switch (raw.action) {
+    case "research.import": {
+      const data = z.object({ json: text.max(1_000_000) }).parse(raw.data);
+      return importResearch(JSON.parse(data.json), "manual", actor);
+    }
+    case "research.sync": {
+      const data = z
+        .object({ force: z.boolean().default(true) })
+        .parse(raw.data);
+      return syncGithubResearch(data.force);
+    }
     case "organization.create": {
       const v = orgInput.parse(raw.data);
       return transaction(async (db) => {

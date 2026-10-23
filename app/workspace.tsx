@@ -25,6 +25,7 @@ import {
   Menu,
 } from "lucide-react";
 import type { DashboardData, Organization } from "@/lib/types";
+import { ResearchPanel, ResearchJsonForm } from "./research-panel";
 import Forms, { type ModalState } from "./forms";
 import {
   Badge,
@@ -126,6 +127,7 @@ const modalTitles: Record<string, string> = {
   "opportunity-detail": "Переговоры и результат",
   task: "Следующее действие",
   import: "Импорт Google Ads",
+  "research-import": "Результаты поиска ChatGPT",
 };
 async function fetchDashboard(
   from: string,
@@ -473,7 +475,7 @@ export default function Workspace({
               className="icon-button mobile-toggle"
               onClick={() => setMobile(!mobile)}
               aria-label="Меню"
-                aria-expanded={mobile}
+              aria-expanded={mobile}
             >
               <Menu size={20} />
             </button>
@@ -763,6 +765,14 @@ export default function Workspace({
               )}
               {section === "organizations" && (
                 <>
+                  <ResearchPanel
+                    data={data}
+                    busy={busy}
+                    sync={() => invoke("research.sync", { force: true })}
+                    importJson={() => open({ kind: "research-import" })}
+                    openOrganization={(id) => open({ kind: "org-detail", id })}
+                    onSynced={load}
+                  />
                   <section className="panel discovery">
                     <div>
                       <span className="eyebrow">МЕЖДУНАРОДНЫЙ ПОИСК</span>
@@ -1278,16 +1288,15 @@ export default function Workspace({
                       <div className="panel-heading">
                         <h2>Кому написали</h2>
                       </div>
-                      {sentInPeriod
-                        .map((m) => (
-                          <div className="mini-row" key={m.id}>
-                            <div>
-                              <strong>{m.organization}</strong>
-                              <p>{m.recipient}</p>
-                            </div>
-                            <span>{dateTime(m.sent_at)}</span>
+                      {sentInPeriod.map((m) => (
+                        <div className="mini-row" key={m.id}>
+                          <div>
+                            <strong>{m.organization}</strong>
+                            <p>{m.recipient}</p>
                           </div>
-                        ))}
+                          <span>{dateTime(m.sent_at)}</span>
+                        </div>
+                      ))}
                       {sentInPeriod.length === 0 && (
                         <p className="muted padded">
                           За период нет подтверждённых SMTP отправок.
@@ -1437,6 +1446,11 @@ export default function Workspace({
                         key: "search",
                         name: "Публичный поиск",
                         text: "Brave Search API: BRAVE_SEARCH_API_KEY. Без ключа доступны публичные поисковые ссылки и ручное добавление.",
+                      },
+                      {
+                        key: "research",
+                        name: "Исследования ChatGPT",
+                        text: "GitHub inbox приложения, импорт JSON и HTTPS-приёмник /api/research/ingest. Настройки и успешные импорты учитываются отдельно.",
                       },
                       {
                         key: "adsScripts",
@@ -1602,7 +1616,12 @@ export default function Workspace({
               {notice}
             </p>
           )}
-          {modal.kind === "import" ? (
+          {modal.kind === "research-import" ? (
+            <ResearchJsonForm
+              busy={busy}
+              submit={(json) => invoke("research.import", { json })}
+            />
+          ) : modal.kind === "import" ? (
             <CsvImportForm busy={busy} invoke={invoke} />
           ) : (
             <Forms

@@ -3,6 +3,7 @@ import { pool } from "./db";
 import { z } from "zod";
 import { date } from "./validation";
 import { smtpConfigured } from "./outreach";
+import { githubResearchConfigured } from "./research-github";
 const filters = z
   .object({
     from: date,
@@ -26,6 +27,8 @@ export async function dashboard(input: unknown): Promise<DashboardData> {
   const db = pool();
   const p = [f.from, f.to, f.kind];
   const queries = {
+    researchRuns: `SELECT id,run_key,producer,transport,query,researched_at,received_at,created_count,matched_count,conflict_count FROM research_runs ORDER BY received_at DESC LIMIT 30`,
+    researchRecords: `SELECT r.*,o.name AS organization FROM research_records r JOIN research_runs run ON run.id=r.run_id LEFT JOIN organizations o ON o.id=r.organization_id ORDER BY run.received_at DESC,r.record_index LIMIT 200`,
     organizations: `SELECT * FROM organizations ORDER BY created_at DESC`,
     contacts: `SELECT * FROM contacts ORDER BY name`,
     evidence: `SELECT * FROM evidence ORDER BY created_at DESC`,
@@ -107,6 +110,10 @@ export async function dashboard(input: unknown): Promise<DashboardData> {
       filters: f,
       connections: {
         smtp: smtpConfigured(),
+        research:
+          Boolean(process.env.RESEARCH_INGEST_SECRET) ||
+          githubResearchConfigured(),
+        researchGithub: githubResearchConfigured(),
         imap: false,
         search: Boolean(process.env.BRAVE_SEARCH_API_KEY),
         adsScripts: Boolean(process.env.ADS_INGEST_SECRET),

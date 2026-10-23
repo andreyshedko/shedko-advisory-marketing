@@ -17,7 +17,9 @@
     "admin:create": "tsx scripts/admin.ts",
     "local:setup": "node scripts/local-setup.mjs",
     "db:seed:demo": "tsx scripts/seed-demo.ts",
-    "test:e2e": "tsx scripts/e2e.ts"
+    "test:e2e": "tsx scripts/e2e.ts",
+    "research:import": "tsx scripts/research-import.ts",
+    "research:sync": "tsx scripts/research-sync.ts"
   },
   "dependencies": {
     "better-auth": "^1.7.12",
