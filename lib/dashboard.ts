@@ -4,6 +4,7 @@ import { z } from "zod";
 import { date } from "./validation";
 import { smtpConfigured } from "./outreach";
 import { githubResearchConfigured } from "./research-github";
+import { imapConfigured } from "./imap";
 const filters = z
   .object({
     from: date,
@@ -114,7 +115,7 @@ export async function dashboard(input: unknown): Promise<DashboardData> {
           Boolean(process.env.RESEARCH_INGEST_SECRET) ||
           githubResearchConfigured(),
         researchGithub: githubResearchConfigured(),
-        imap: false,
+        imap: imapConfigured(),
         search: Boolean(process.env.BRAVE_SEARCH_API_KEY),
         adsScripts: Boolean(process.env.ADS_INGEST_SECRET),
         cron: Boolean(process.env.CRON_SECRET),

@@ -27,9 +27,14 @@ import { importAds, parseAdsCsv } from "./ads";
 import { runJobs } from "./jobs";
 import { importResearch } from "./research";
 import { syncGithubResearch } from "./research-github";
+import { syncImapReplies } from "./imap";
 export async function operate(input: unknown, actor: string): Promise<unknown> {
   const raw = z.object({ action: z.string(), data: z.unknown() }).parse(input);
   switch (raw.action) {
+    case "mailbox.sync": {
+      const data = z.object({ force: z.boolean().default(true) }).parse(raw.data);
+      return syncImapReplies(actor, data.force);
+    }
     case "research.import": {
       const data = z.object({ json: text.max(1_000_000) }).parse(raw.data);
       let parsed: unknown;

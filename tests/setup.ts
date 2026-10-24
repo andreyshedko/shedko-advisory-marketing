@@ -54,7 +54,7 @@ beforeAll(async () => {
 });
 beforeEach(async () => {
   await pool().query(
-    'TRUNCATE research_remote_files,research_records,research_runs,opportunity_events,marketing_reports,organizations,contacts,evidence,partner_programs,partner_applications,outreach_messages,outreach_events,suppressions,tasks,opportunities,campaigns,spend_records,activity_log,integration_status,job_runs,discovery_results,"user",session,account,verification,"rateLimit" CASCADE',
+    'TRUNCATE imap_receipts,imap_cursors,research_remote_files,research_records,research_runs,opportunity_events,marketing_reports,organizations,contacts,evidence,partner_programs,partner_applications,outreach_messages,outreach_events,suppressions,tasks,opportunities,campaigns,spend_records,activity_log,integration_status,job_runs,discovery_results,"user",session,account,verification,"rateLimit" CASCADE',
   );
   for (const key of [
     "SMTP_HOST",
@@ -62,6 +62,11 @@ beforeEach(async () => {
     "SMTP_PASSWORD",
     "SMTP_FROM",
     "OUTREACH_FOOTER",
+    "IMAP_HOST",
+    "IMAP_PORT",
+    "IMAP_MAILBOX",
+    "IMAP_USER",
+    "IMAP_PASSWORD",
     "BRAVE_SEARCH_API_KEY",
     "RESEARCH_GITHUB_REPOSITORY",
     "RESEARCH_GITHUB_TOKEN",

@@ -167,9 +167,50 @@ export default function Workspace({
     "M&A advisor software acquisitions United States United Kingdom",
   );
   const [mobile, setMobile] = useState(false);
-  const load = useCallback(async () => {
-    setData(await fetchDashboard(from, to, kind));
+  const load = useCallback(async (signal?: AbortSignal) => {
+    const next = await fetchDashboard(from, to, kind, signal);
+    if (!signal?.aborted) setData(next);
   }, [from, to, kind]);
+  const mailboxConfigured = Boolean(data?.connections.imap);
+  useEffect(() => {
+    if (
+      !["outreach", "integrations"].includes(section) ||
+      !mailboxConfigured ||
+      modal ||
+      busy
+    )
+      return;
+    const controller = new AbortController();
+    let running = false;
+    async function syncReplies() {
+      if (running || controller.signal.aborted) return;
+      running = true;
+      try {
+        const response = await fetch("/api/admin", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            action: "mailbox.sync",
+            data: { force: false },
+          }),
+          signal: controller.signal,
+        });
+        const result = await response.json();
+        if (response.ok && result.throttled !== true && !controller.signal.aborted)
+          await load(controller.signal);
+      } catch {
+        // Background checks stay quiet; manual sync reports connection errors.
+      } finally {
+        running = false;
+      }
+    }
+    void syncReplies();
+    const timer = setInterval(() => void syncReplies(), 5 * 60 * 1000);
+    return () => {
+      clearInterval(timer);
+      controller.abort();
+    };
+  }, [section, mailboxConfigured, modal, busy, load]);
   useEffect(() => {
     const controller = new AbortController();
     fetchDashboard(from, to, kind, controller.signal)
@@ -198,7 +239,13 @@ export default function Workspace({
       if (!r.ok) throw new Error(json.error || "Не удалось выполнить операцию");
       await load();
       if (!keepOpen) setModal(null);
-      setNotice("Действие выполнено и записано в журнал.");
+      setNotice(
+        action === "mailbox.sync"
+          ? json.throttled === true
+            ? "Проверка уже выполняется. Результат появится после обновления."
+            : `Проверено писем: ${json.scanned}. Найдено ответов: ${json.matched}. Добавлено: ${json.imported}.${json.hasMore ? " Остались письма; запустите проверку ещё раз." : ""}`
+          : "Действие выполнено и записано в журнал.",
+      );
       return true;
     } catch (e) {
       setError(e instanceof Error ? e.message : "Ошибка операции");
@@ -208,6 +255,9 @@ export default function Workspace({
       setBusy(false);
     }
   }
+  const mailboxIntegration = data?.integrations.find(
+    (integration) => integration.name === "porkbun_imap",
+  );
   const chosenOrg = (o: Organization) => kind === "all" || o.kind === kind;
   const period = (value: string) =>
     value.slice(0, 10) >= from && value.slice(0, 10) <= to;
@@ -919,9 +969,42 @@ export default function Workspace({
                         ? "настроен, соединение проверяется при ручной отправке"
                         : "не подключено"}
                     </span>
-                    <span>Ответы: ручной учёт</span>
+                    <span>
+                      Ответы IMAP:{" "}
+                      {data.connections.imap ? "настроено" : "не подключено"}
+                      {mailboxIntegration?.last_success_at
+                        ? ` · проверка ${dateTime(mailboxIntegration.last_success_at)}`
+                        : " · успешной проверки ещё нет"}
+                    </span>
                     <span>Follow-up: один, через 7+ дней</span>
                   </div>
+                  <section className="panel">
+                    <div className="panel-heading">
+                      <div>
+                        <h2>Входящие ответы</h2>
+                        <p className="muted">
+                          Ответы на отправленные письма добавляются через IMAP.
+                          Позитивный ответ или отказ отметьте в карточке письма.
+                          {" "}Проверка выполняется каждые 5 минут, пока открыта
+                          эта страница, и ежедневно в 06:00 UTC.
+                        </p>
+                      </div>
+                      <button
+                        className="secondary"
+                        disabled={busy || !data.connections.imap}
+                        onClick={() => invoke("mailbox.sync", { force: true })}
+                      >
+                        <RefreshCw size={16} />
+                        Проверить ответы
+                      </button>
+                    </div>
+                    <p className="muted padded">
+                      {mailboxIntegration?.detail ||
+                        (data.connections.imap
+                          ? "Настройки сохранены. Первую успешную проверку покажем здесь."
+                          : "Подключите корпоративный ящик в настройках сервера.")}
+                    </p>
+                  </section>
                   <section className="panel">
                     <div className="panel-heading">
                       <h2>
@@ -1440,7 +1523,7 @@ export default function Workspace({
                       {
                         key: "imap",
                         name: "Ответы · IMAP",
-                        text: "Синхронизация IMAP не реализована. Фактические ответы и отказы вносятся вручную в карточке письма.",
+                        text: "Входящие ответы на отправленные письма связываются по заголовкам переписки и адресу отправителя. IMAP_HOST, IMAP_PORT, IMAP_MAILBOX; учётные данные — корпоративного ящика. Позитивный ответ и отказ отмечаются вручную.",
                       },
                       {
                         key: "search",
@@ -1460,7 +1543,7 @@ export default function Workspace({
                       {
                         key: "cron",
                         name: "Vercel Cron",
-                        text: "CRON_SECRET. Ежедневная проверка в 06:00 UTC. Проверка источников, оповещения и журнал; внешние отправки исключены.",
+                        text: "CRON_SECRET. Ежедневная проверка в 06:00 UTC. Ответы IMAP, проверка источников, оповещения и журнал; внешние отправки исключены.",
                       },
                     ].map((i) => (
                       <div className="integration-card" key={i.key}>
@@ -1476,6 +1559,27 @@ export default function Workspace({
                         </div>
                         <h3>{i.name}</h3>
                         <p>{i.text}</p>
+                        {i.key === "imap" && (
+                          <>
+                            <p>
+                              Последняя успешная проверка:{" "}
+                              {mailboxIntegration?.last_success_at
+                                ? dateTime(mailboxIntegration.last_success_at)
+                                : "ещё не выполнена"}
+                            </p>
+                            {mailboxIntegration?.detail && (
+                              <p>{mailboxIntegration.detail}</p>
+                            )}
+                            <button
+                              className="secondary"
+                              disabled={busy || !data.connections.imap}
+                              onClick={() => invoke("mailbox.sync", { force: true })}
+                            >
+                              <RefreshCw size={16} />
+                              Проверить ответы
+                            </button>
+                          </>
+                        )}
                       </div>
                     ))}
                   </div>
@@ -1487,7 +1591,11 @@ export default function Workspace({
                       data.integrations.map((i) => (
                         <div className="mini-row" key={i.name}>
                           <div>
-                            <strong>{i.name}</strong>
+                            <strong>
+                              {i.name === "porkbun_imap"
+                                ? "Ответы · Porkbun IMAP"
+                                : i.name}
+                            </strong>
                             <p>{i.detail}</p>
                           </div>
                           <span>{dateTime(i.last_success_at)}</span>
