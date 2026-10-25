@@ -14,6 +14,7 @@ import {
   scheduleFollowup,
 } from "../lib/outreach";
 import { parseAdsCsv, importAds } from "../lib/ads";
+import { POST as ingestAds } from "../app/api/ads/ingest/route";
 import { runJobs } from "../lib/jobs";
 import { authorizedBearer, requireSameOrigin } from "../lib/security";
 import { normalizeDomain, normalizeName } from "../lib/validation";
@@ -354,6 +355,75 @@ describe("critical operations on real PostgreSQL", () => {
     ).rejects.toThrow();
     expect((await pool().query("SELECT 1 FROM campaigns")).rowCount).toBe(1);
     expect(() => parseAdsCsv(csv.replace("100,5", "1,5"))).toThrow();
+  });
+  it("records authenticated empty Ads Script runs without inventing campaign statistics", async () => {
+    const previousSecret = process.env.ADS_INGEST_SECRET;
+    const secret = `test-ads-ingest-${randomUUID()}`;
+    process.env.ADS_INGEST_SECRET = secret;
+    const request = (authenticated: boolean) =>
+      new Request("https://app.example.com/api/ads/ingest", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(authenticated ? { Authorization: `Bearer ${secret}` } : {}),
+        },
+        body: "[]",
+      });
+    try {
+      expect((await ingestAds(request(false))).status).toBe(401);
+      expect((await pool().query("SELECT 1 FROM integration_status")).rowCount).toBe(0);
+      expect((await pool().query("SELECT 1 FROM activity_log")).rowCount).toBe(0);
+
+      const response = await ingestAds(request(true));
+      expect(response.status).toBe(200);
+      expect(await response.json()).toEqual({ imported: 0 });
+      expect((await pool().query("SELECT 1 FROM campaigns")).rowCount).toBe(0);
+      expect(
+        (
+          await pool().query(
+            "SELECT name,status,detail,last_success_at FROM integration_status",
+          )
+        ).rows,
+      ).toEqual([
+        expect.objectContaining({
+          name: "google_ads_scripts",
+          status: "connected",
+          detail: "0 daily rows received",
+          last_success_at: expect.any(Date),
+        }),
+      ]);
+      expect(
+        (await pool().query("SELECT actor,action,detail FROM activity_log")).rows,
+      ).toEqual([
+        {
+          actor: "google_ads_scripts",
+          action: "ads.scripts_imported",
+          detail: { rows: 0 },
+        },
+      ]);
+
+      await importAds(parseAdsCsv(csv), "csv", actor);
+      expect((await ingestAds(request(true))).status).toBe(200);
+      expect(
+        (
+          await pool().query(
+            "SELECT COUNT(*)::int AS n,SUM(cost)::float AS cost FROM campaigns",
+          )
+        ).rows[0],
+      ).toEqual({ n: 1, cost: 12.5 });
+    } finally {
+      if (previousSecret === undefined) delete process.env.ADS_INGEST_SECRET;
+      else process.env.ADS_INGEST_SECRET = previousSecret;
+    }
+  });
+  it("rejects empty CSV imports without marking an integration connected", async () => {
+    expect(() => parseAdsCsv(csv.split("\n")[0] + "\n")).toThrow(
+      "Import between 1 and 2000 daily campaign rows",
+    );
+    await expect(importAds([], "csv", actor)).rejects.toThrow();
+    expect((await pool().query("SELECT 1 FROM campaigns")).rowCount).toBe(0);
+    expect((await pool().query("SELECT 1 FROM integration_status")).rowCount).toBe(0);
+    expect((await pool().query("SELECT 1 FROM activity_log")).rowCount).toBe(0);
   });
   it("cron is idempotent, raises a budget alert and retries failed safe checks", async () => {
     process.env.DAILY_BUDGETS = '{"USD":10}';

@@ -258,6 +258,11 @@ export default function Workspace({
   const mailboxIntegration = data?.integrations.find(
     (integration) => integration.name === "porkbun_imap",
   );
+  const adsConnected = data?.integrations.some(
+    (integration) =>
+      integration.name === "google_ads_scripts" &&
+      integration.status === "connected",
+  );
   const chosenOrg = (o: Organization) => kind === "all" || o.kind === kind;
   const period = (value: string) =>
     value.slice(0, 10) >= from && value.slice(0, 10) <= to;
@@ -1145,8 +1150,16 @@ export default function Workspace({
                       </div>
                     ) : (
                       <Empty
-                        title="Google Ads пока не подключён"
-                        detail="Загрузите ежедневную статистику из CSV или настройте приём данных из Google Ads Scripts."
+                        title={
+                          adsConnected
+                            ? "Google Ads подключён, статистики пока нет"
+                            : "Google Ads пока не подключён"
+                        }
+                        detail={
+                          adsConnected
+                            ? "В выбранном периоде нет статистики кампаний. Соединение подтверждено; скрипт читает семь завершённых дней без текущего дня."
+                            : "Загрузите ежедневную статистику из CSV или настройте приём данных из Google Ads Scripts."
+                        }
                       >
                         <button
                           className="secondary"

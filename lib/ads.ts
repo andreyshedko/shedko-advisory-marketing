@@ -37,7 +37,11 @@ export async function importAds(
   source: "csv" | "scripts",
   actor: string,
 ) {
-  const rows = z.array(adRow).min(1).max(2000).parse(input);
+  const rows = z
+    .array(adRow)
+    .min(source === "scripts" ? 0 : 1)
+    .max(2000)
+    .parse(input);
   return transaction(async (db) => {
     for (const r of rows) {
       // PostgreSQL also validates calendar dates (e.g. February 30 is rejected atomically).
