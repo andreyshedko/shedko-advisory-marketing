@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "runId": "codex:2026-10-25:search-backfill:2026-10-24",
+  "producer": "codex",
+  "query": "Подборка из восьми компаний за 24.10.2026. Синхронизация результатов поиска ChatGPT и повторная проверка публичных официальных источников 25.10.2026 для Shedko Advisory.",
+  "researchedAt": "2026-10-25T19:07:08.597Z",
+  "records": [
+    {
+      "name": "Aventis Advisors",
+      "website": "https://aventis-advisors.com",
+      "country": "Poland / United States",
+      "kind": "advisor",
+      "relevance": "Факт: Aventis консультирует основателей и инвесторов по продаже и покупке компаний, включая software и IT services; на сайте указаны Варшава и Нью-Йорк. Marcin Majewski представлен как Founder, Managing Partner, его рабочий email опубликован в профиле. Гипотеза предложения Shedko Advisory: независимая техническая проверка программных активов и рисков для software M&A. Спрос на такую услугу и готовность к сотрудничеству не подтверждены. Восстановлено из результатов поиска за 24.10.2026; официальная страница повторно проверена 25.10.2026. Адрес опубликован, но контакт и разрешение на рассылку оператором не подтверждены.",
+      "contactChannel": "marcin.majewski@aventis-advisors.com",
+      "sources": [
+        {
+          "url": "https://aventis-advisors.com/team/marcin-majewski/",
+          "note": "Официальный профиль: Marcin Majewski — Founder, Managing Partner; buy-side и sell-side мандаты в software и IT services; явно опубликован marcin.majewski@aventis-advisors.com. Контактный блок указывает New York и Warsaw. Проверено 25.10.2026."
+        }
+      ]
+    },
+    {
+      "name": "Translink Corporate Finance",
+      "website": "https://translinkcf.com",
+      "country": "Finland",
+      "kind": "advisor",
+      "relevance": "Факт: финская команда международной сети Translink занимается M&A; по её официальной странице не менее половины локальных сделок относится к technology и IT. Ruben Moring указан как Partner с опубликованным рабочим адресом. Гипотеза предложения Shedko Advisory: независимая техническая оценка SaaS и IT-активов в транзакциях финской команды. Наличие текущей потребности в подрядчике не подтверждено. Восстановлено из результатов поиска за 24.10.2026; источник повторно проверен 25.10.2026. Опубликованный email требует проверки оператором перед обращением.",
+      "contactChannel": "rmoring@translinkcf.com",
+      "sources": [
+        {
+          "url": "https://translinkcf.com/finland/",
+          "note": "Официальная страница финской команды подтверждает M&A-фокус на technology и IT, офис в Helsinki; Ruben Moring обозначен Partner, указан rmoring@translinkcf.com. Это сведения о финской команде, а не утверждение о стране регистрации всей международной сети. Проверено 25.10.2026."
+        }
+      ]
+    },
+    {
+      "name": "Clipperton",
+      "website": "https://www.clipperton.com",
+      "country": "France / Netherlands",
+      "kind": "advisor",
+      "relevance": "Факт: Clipperton оказывает финансовые и стратегические консультации технологическим компаниям и инвесторам по M&A и финансированию; официальная новость 07.11.2024 сообщает о работе Steffen Boode в Amsterdam и публикует его email. У компании указаны офисы в Paris и других европейских городах. Гипотеза предложения Shedko Advisory: независимый технический due diligence для технологических сделок в Benelux и Европе. Актуальность роли адресата и потребность в услугах требуют проверки оператором. Восстановлено из поиска за 24.10.2026; официальный источник повторно открыт 25.10.2026. Публикация адреса не означает согласие на обращение.",
+      "contactChannel": "sboode@clipperton.com",
+      "sources": [
+        {
+          "url": "https://www.clipperton.com/corporate/clipperton-expands-benelux-presence-with-steffen-boode-as-a-new-team-member-and-a-local-partner-in-the-netherlands",
+          "note": "Официальная новость от 07.11.2024: Steffen Boode работает из Amsterdam, указан прямой адрес sboode@clipperton.com; описаны технологический M&A-фокус и офисы Paris/Amsterdam. Источник исторический, текущая должность отдельно не подтверждалась. Проверено 25.10.2026."
+        }
+      ]
+    },
+    {
+      "name": "Hampleton Partners",
+      "website": "https://www.hampletonpartners.com",
+      "country": "Germany / United Kingdom",
+      "kind": "advisor",
+      "relevance": "Факт: Hampleton консультирует по технологическим M&A; в декабре 2024 компания сообщила о сопровождении продажи software-компании PAQATO. Официальный imprint указывает Hampleton GmbH во Frankfurt и общий рабочий email; релиз выпущен от London и Frankfurt. Гипотеза предложения Shedko Advisory: независимая проверка архитектуры и технических рисков в software-сделках. Подтверждённого запроса на услуги нет. Восстановлено из результатов 24.10.2026, официальные страницы проверены 25.10.2026. Общий адрес опубликован, но контакт не верифицирован оператором для рассылки.",
+      "contactChannel": "info@hampletonpartners.com",
+      "sources": [
+        {
+          "url": "https://www.hampletonpartners.com/imprint/",
+          "note": "Официальный imprint указывает Hampleton GmbH, Frankfurt am Main, Germany и info@hampletonpartners.com. Проверено 25.10.2026."
+        },
+        {
+          "url": "https://www.hampletonpartners.com/news/newsdetail/hampleton-partners-advises-paqato-on-sale-to-easybill/",
+          "note": "Официальный релиз от 16.12.2024, London/Frankfurt: Hampleton консультировал акционеров PAQATO при сделке с easybill; описывает software и SaaS-продукт PAQATO. Подтверждает профиль сделок, а не открытую потребность в техническом консультанте. Проверено 25.10.2026."
+        }
+      ]
+    },
+    {
+      "name": "Everfield",
+      "website": "https://everfield.com",
+      "country": "United Kingdom / Europe",
+      "kind": "acquirer",
+      "relevance": "Факт: Everfield приобретает европейские компании отраслевого и специализированного software с самостоятельным управлением; на официальной странице штаб-квартира обозначена в London. Rafal Morlak указан в M&A PL & CEE с опубликованным адресом. Гипотеза предложения Shedko Advisory: технический due diligence приобретаемых software-компаний в CEE и оценка рисков развития продуктов. Потребность во внешнем консультанте не подтверждена. Восстановлено из поиска за 24.10.2026; официальный источник повторно проверен 25.10.2026. Контакт опубликован, но вручную не утверждён для рассылки.",
+      "contactChannel": "rafal.morlak@everfield.com",
+      "sources": [
+        {
+          "url": "https://everfield.com/who-we-are",
+          "note": "Официальная страница подтверждает приобретение европейского vertical market и specialist software; перечисляет Rafal Morlak, M&A PL & CEE, rafal.morlak@everfield.com и HQ London, United Kingdom. Проверено 25.10.2026."
+        }
+      ]
+    },
+    {
+      "name": "Total Specific Solutions (TSS)",
+      "website": "https://www.totalspecificsolutions.com",
+      "country": "Netherlands / Germany",
+      "kind": "acquirer",
+      "relevance": "Факт: TSS развивает портфель отраслевых software-компаний через приобретения и долгосрочное владение. Международный сайт указывает контактный адрес в Utrecht; немецкая страница представляет M&A-команду DACH и публикует email Kristof Wendy, Head of M&A. Гипотеза предложения Shedko Advisory: независимая техническая проверка целей приобретения в DACH и оценка рисков программных активов. Запрос на такую услугу не подтверждён. Восстановлено из поиска за 24.10.2026; официальные источники проверены 25.10.2026. Адрес опубликован, контакт требует ручного утверждения перед обращением.",
+      "contactChannel": "k.wendy@tss-vms.de",
+      "sources": [
+        {
+          "url": "https://totalspecificsolutions.de/kontakt/",
+          "note": "Официальная страница команды Deutschland, Österreich und Schweiz: Kristof Wendy обозначен Head of M&A, опубликован k.wendy@tss-vms.de; описан процесс сделки с Due Diligence. Проверено 25.10.2026."
+        },
+        {
+          "url": "https://totalspecificsolutions.de/ueber-uns/",
+          "note": "Официальное описание подтверждает портфель отраслевого software, приобретения, самостоятельность компаний и стратегию долгосрочного владения. Проверено 25.10.2026."
+        },
+        {
+          "url": "https://www.totalspecificsolutions.com/insights?nid=111",
+          "note": "Официальное сообщение о приобретении V-D-V GmbH в Germany, 10.08.2022, также публикует k.wendy@tss-vms.de; контактный блок TSS указывает Utrecht, The Netherlands. Проверено 25.10.2026."
+        }
+      ]
+    },
+    {
+      "name": "Jonas Software",
+      "website": "https://jonassoftware.com",
+      "country": "Canada / international",
+      "kind": "acquirer",
+      "relevance": "Факт: Jonas приобретает и развивает vertical market software, предлагает отдельную страницу для M&A-консультантов и указывает североамериканский офис в Markham, Canada, а также присутствие UK/Europe и Australia/New Zealand. Общий email опубликован на официальном сайте. Гипотеза предложения Shedko Advisory: независимая техническая проверка приобретаемых программных активов и портфельных рисков. Наличие спроса на внешнюю проверку не подтверждено. Восстановлено из поиска за 24.10.2026; источники повторно проверены 25.10.2026. Публичный email не является автоматически проверенным контактом для рассылки.",
+      "contactChannel": "info@jonassoftware.com",
+      "sources": [
+        {
+          "url": "https://jonassoftware.com/contact-us",
+          "note": "Официальные контакты: Jonas Software в Markham, Ontario, Canada; региональные контакты UK/Europe и Australia/New Zealand, общий info@jonassoftware.com. Проверено 25.10.2026."
+        },
+        {
+          "url": "https://jonassoftware.com/advisor",
+          "note": "Официальная страница M&A Advisors описывает приобретение отраслевых software-компаний, децентрализованное управление и постоянное владение; также публикует info@jonassoftware.com. Проверено 25.10.2026."
+        }
+      ]
+    },
+    {
+      "name": "Harris Computer",
+      "website": "https://www.harriscomputer.com",
+      "country": "Canada / Germany",
+      "kind": "acquirer",
+      "relevance": "Факт: Harris приобретает vertical market software; официальный итог 2024 года описывает приобретения и работу с M&A-консультантами. Канадская деятельность подтверждена релизом из Ottawa; imprint Harris Computer Germany указывает немецкое юридическое лицо и общий DACH-адрес. Гипотеза предложения Shedko Advisory: независимая техническая оценка software-целей приобретения и рисков развития продуктов для DACH-команды. Потребность и полномочия адресата для закупки услуг не подтверждены. Восстановлено из поиска за 24.10.2026; источники проверены 25.10.2026. Публичный DACH-email требует ручной проверки перед обращением.",
+      "contactChannel": "info_dach@harriscomputer.eu",
+      "sources": [
+        {
+          "url": "https://harriscomputer.eu/impressum/",
+          "note": "Официальный imprint Harris Computer Germany GmbH, Roggentin, Germany, явно публикует info_dach@harriscomputer.eu. Это общий контакт немецкого подразделения, не персональный email M&A-руководителя. Проверено 25.10.2026."
+        },
+        {
+          "url": "https://www.harriscomputer.com/news/harris-year-in-review-looking-back-on-2024",
+          "note": "Официальный итог 2024 года, опубликованный 19.02.2025: подтверждает приобретение vertical market software и сотрудничество с M&A-консультантами. Не подтверждает спрос на услуги Shedko Advisory. Проверено 25.10.2026."
+        },
+        {
+          "url": "https://www.harriscomputer.com/news/harris-acquires-la-suite-interactive-donna",
+          "note": "Официальное сообщение от 28.08.2024 о software-приобретении Harris через Logilys, с датировкой Ottawa, Ontario, Canada. Подтверждает канадскую деятельность группы. Проверено 25.10.2026."
+        }
+      ]
+    }
+  ]
+}

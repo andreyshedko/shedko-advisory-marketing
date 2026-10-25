@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "runId": "codex:2026-10-25:search-backfill:2026-10-25",
+  "producer": "codex",
+  "query": "Подборка из восьми компаний за 25.10.2026. Синхронизация результатов поиска ChatGPT и повторная проверка публичных официальных источников 25.10.2026 для Shedko Advisory.",
+  "researchedAt": "2026-10-25T19:07:08.597Z",
+  "records": [
+    {
+      "name": "ICON Corporate Finance",
+      "website": "https://www.iconcorpfin.com/",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "M&A-консультант технологического сектора. Официальная биография Brian Parker подтверждает роль Co-Founder, Head of M&A и работу со сделками software и digital services. Гипотеза обращения: независимая техническая оценка готовности продавца до buyer due diligence, чтобы выявить архитектурные риски и технический долг. brian@iconcorpfin.com опубликован в официальной биографии; доставляемость адреса и заинтересованность в сотрудничестве не проверены.",
+      "contactChannel": "brian@iconcorpfin.com",
+      "sources": [
+        {
+          "url": "https://www.iconcorpfin.com/person/brian-parker/",
+          "note": "Официальная биография указывает Brian Parker как Co-Founder, Head of M&A, публикует brian@iconcorpfin.com и описывает работу со software и digital services и выходами к private equity и стратегическим покупателям."
+        },
+        {
+          "url": "https://www.iconcorpfin.com/contact/",
+          "note": "Официальная страница контактов перечисляет офисы в London и Bristol; сайт сообщает о регистрации ICON в England & Wales."
+        }
+      ]
+    },
+    {
+      "name": "Founders Advisors",
+      "website": "https://foundersib.com/",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Консультант по сделкам с технологической практикой. Brad Johnson указан как Managing Director of Founders Advisors Technology Practice. Гипотеза обращения: предложить независимую оценку архитектуры, безопасности и сопровождаемости software-бизнесов при подготовке к сделке. bjohnson@foundersib.com опубликован в официальной биографии; доставляемость адреса и потребность в сторонней технической экспертизе не проверены.",
+      "contactChannel": "bjohnson@foundersib.com",
+      "sources": [
+        {
+          "url": "https://foundersib.com/member/brad-johnson/",
+          "note": "Официальная биография подтверждает Brad Johnson, Managing Director технологической практики, публикует bjohnson@foundersib.com и описывает участие в организации технологических сделок."
+        },
+        {
+          "url": "https://foundersib.com/contact-us/",
+          "note": "Официальная страница сообщает об обслуживании рынка США и указывает главный офис в Birmingham, Alabama, а также Dallas и Nashville."
+        }
+      ]
+    },
+    {
+      "name": "33Equity",
+      "website": "https://www.33equity.eu/",
+      "country": "Netherlands",
+      "kind": "advisor",
+      "relevance": "M&A-консультант для software, IT services и технологических профессиональных услуг; на сайте перечислены buy-side и sell-side advisory и внешняя M&A-команда. Гипотеза обращения: партнёрская техническая due diligence для buy-side мандатов либо техническая подготовка продавца. info@33equity.eu опубликован на официальном сайте; доставляемость адреса и заинтересованность в партнёрстве не проверены. Персональный получатель пока не выбран.",
+      "contactChannel": "info@33equity.eu",
+      "sources": [
+        {
+          "url": "https://www.33equity.eu/",
+          "note": "Официальный сайт перечисляет M&A Buy-side Advisory, M&A Sell-side Advisory и Virtual M&A Department, называет software и IT services целевыми секторами и публикует info@33equity.eu и адрес офиса в Amsterdam, Netherlands."
+        }
+      ]
+    },
+    {
+      "name": "Boss Equity",
+      "website": "https://www.bossequity.com/",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Международный стратегический M&A-консультант software-сектора. Официальный сайт описывает подготовку software-бизнесов к продаже и повышение их стоимости. Гипотеза обращения: техническая оценка до выхода на сделку с перечнем рисков и вариантов исправления как дополнительная услуга клиентам консультанта. unlock@bossequity.com опубликован для UK headquarters; доставляемость адреса и заинтересованность в сотрудничестве не проверены.",
+      "contactChannel": "unlock@bossequity.com",
+      "sources": [
+        {
+          "url": "https://www.bossequity.com/",
+          "note": "Официальный сайт называет компанию International Strategic M&A Advisors for the software sector, описывает подготовку к продаже software-бизнеса и указывает UK headquarters в London и unlock@bossequity.com."
+        }
+      ]
+    },
+    {
+      "name": "Torch Partners",
+      "website": "https://www.torchpartners.com/",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "M&A- и private capital markets-консультант для software, технологий и цифровой инфраструктуры. Гипотеза обращения: предложить дополнительную независимую техническую экспертизу по архитектуре, инфраструктуре и безопасности в выбранных software-сделках. info@torchpartners.com опубликован как адрес общих запросов; доставляемость адреса, конкретный получатель и потребность в сторонней экспертизе не проверены.",
+      "contactChannel": "info@torchpartners.com",
+      "sources": [
+        {
+          "url": "https://www.torchpartners.com/contact",
+          "note": "Официальная страница контактов подтверждает специализацию в M&A и private capital markets для Digital Infrastructure, Software and Technology, публикует info@torchpartners.com для general enquiries и адрес офиса в London, United Kingdom."
+        }
+      ]
+    },
+    {
+      "name": "AXOM Partners",
+      "website": "https://www.axompartners.com/",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Независимый M&A-консультант технологических основателей и инвесторов. Официальный сайт перечисляет AI, infrastructure software, application software и cybersecurity среди направлений. Гипотеза обращения: специализированная независимая оценка архитектуры, безопасности и сопровождаемости программных активов, включая риски AI-built software при наличии такого предмета сделки. inquiries@axompartners.com опубликован для деловых обращений; доставляемость адреса и заинтересованность в сотрудничестве не проверены.",
+      "contactChannel": "inquiries@axompartners.com",
+      "sources": [
+        {
+          "url": "https://www.axompartners.com/",
+          "note": "Официальный сайт описывает независимую M&A-консультационную практику для технологических основателей и инвесторов и перечисляет Artificial Intelligence, Infrastructure Software, Application Software и Cybersecurity среди направлений."
+        },
+        {
+          "url": "https://www.axompartners.com/contact",
+          "note": "Официальная страница контактов публикует inquiries@axompartners.com для Work with AXOM и адреса в San Francisco, California, и Lehi, Utah, США."
+        }
+      ]
+    },
+    {
+      "name": "Vitec Software Group",
+      "website": "https://www.vitecsoftware.com/",
+      "country": "Sweden",
+      "kind": "acquirer",
+      "relevance": "Покупатель стандартизированного собственного ПО для вертикальных рынков с долгосрочным владением. Официальная страница руководства подтверждает Aleš Zobec как Head of M&A. Гипотеза обращения: независимая проверка технического долга, legacy-архитектуры и затрат на модернизацию при приобретении software-бизнеса. Email ales.zobec@vitecsoftware.com из исходной подборки не удалось подтвердить в доступном тексте открытых официальных страниц; до проверки использовать официальный раздел приобретений. Доставляемость и потребность в сторонней экспертизе не проверены.",
+      "contactChannel": "https://www.vitecsoftware.com/en/acquisitions/about-selling-to-us/",
+      "sources": [
+        {
+          "url": "https://www.vitecsoftware.com/en/acquisitions/about-selling-to-us/",
+          "note": "Официальная страница описывает долгосрочные приобретения и критерий стандартизированного собственного ПО для вертикального рынка; контакт по M&A — Aleš Zobec. В доступном тексте есть Send email без раскрытия адреса, поэтому конкретный email не подтверждён."
+        },
+        {
+          "url": "https://www.vitecsoftware.com/en/about-vitec/corporate-governance/group-management/",
+          "note": "Официальная страница Group Management подтверждает Aleš Zobec как Head of M&A."
+        },
+        {
+          "url": "https://www.vitecsoftware.com/en/contact-vitec/",
+          "note": "Официальная страница контактов подтверждает головной офис Vitec Software Group AB в Umeå, Sweden, и повторяет роль Aleš Zobec как Head of M&A."
+        }
+      ]
+    },
+    {
+      "name": "Aspire Software",
+      "website": "https://www.aspiresoftware.com/",
+      "country": "Canada / United States",
+      "kind": "acquirer",
+      "relevance": "Покупатель и долгосрочный оператор vertical-market software; критерии включают собственную разработку SaaS или on-premise ПО. Гипотеза обращения: отдельные технические оценки приобретаемых продуктов с акцентом на legacy-системы, сопровождаемость и объём модернизации. info@aspiresoftware.com встречается в официальной странице условий и приватности как общий контакт; это не подтверждённый персональный M&A-контакт. Доставляемость адреса и потребность во внешней технической проверке не проверены.",
+      "contactChannel": "https://www.aspiresoftware.com/contact-us/",
+      "sources": [
+        {
+          "url": "https://www.aspiresoftware.com/why-join/",
+          "note": "Официальная страница описывает приобретения software-компаний с постоянным владением; среди критериев — собственная разработка SaaS или on-premise software, зрелые компании и возможная потребность в технологическом обновлении."
+        },
+        {
+          "url": "https://www.aspiresoftware.com/website-terms-of-use/",
+          "note": "Официальная страница условий и приватности публикует info@aspiresoftware.com как общий адрес для вопросов приватности и прав на контент; принадлежность адреса M&A-команде не подтверждена."
+        },
+        {
+          "url": "https://www.aspiresoftware.com/contact-us/",
+          "note": "Официальная страница предлагает форму общего обращения и указывает Aspire HQ в Clearwater, United States, и Saint-Laurent, Canada. В открытом тексте адрес email отображается замаскированным."
+        }
+      ]
+    }
+  ]
+}

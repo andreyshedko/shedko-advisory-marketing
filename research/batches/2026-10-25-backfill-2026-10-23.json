@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "runId": "codex:2026-10-25:search-backfill:2026-10-23",
+  "producer": "codex",
+  "query": "Ранний список из восьми компаний за 23.10.2026. Синхронизация результатов поиска ChatGPT и повторная проверка публичных официальных источников 25.10.2026 для Shedko Advisory.",
+  "researchedAt": "2026-10-25T19:07:08.597Z",
+  "records": [
+    {
+      "name": "Evergreen Services Group",
+      "website": "https://www.evergreensg.com/",
+      "country": "United States",
+      "kind": "acquirer",
+      "relevance": "Холдинг, приобретающий и долгосрочно развивающий technology services-компании: managed IT services, ERP consulting/implementation partners и government IT. Гипотеза обращения: независимая оценка технических и операционных рисков при приобретениях ERP- и IT services-бизнесов. Это более узкое соответствие услугам Shedko Advisory, чем покупатель собственного software-продукта; предмет проверки следует уточнить. На официальной странице опубликован контакт ERP M&A-команды cmelbourne@evergreensg.com. Доставляемость и потребность во внешней экспертизе не проверены. Прежний домен evergreenservicesgroup.com перенаправляет на evergreensg.com.",
+      "contactChannel": "cmelbourne@evergreensg.com",
+      "sources": [
+        {
+          "url": "https://www.evergreensg.com/investment-criteria-evergreen/",
+          "note": "Официальные инвестиционные критерии подтверждают приобретения MSP, ERP Partners и Government IT, а также намерение владеть бизнесами долгосрочно; Evergreen назван холдингом technology services-компаний."
+        },
+        {
+          "url": "https://www.evergreensg.com/industries/",
+          "note": "Официальная страница отраслей уточняет профиль ERP Software Partners как ERP-консалтинг и внедрение, наряду с managed IT services и government IT."
+        },
+        {
+          "url": "https://www.evergreensg.com/connect/",
+          "note": "Официальная страница контактов указывает офис в San Francisco, California, и публикует cmelbourne@evergreensg.com для ERP M&A-команды; отдельно есть адреса MSP и government IT M&A-команд."
+        }
+      ]
+    },
+    {
+      "name": "Main Capital Partners",
+      "website": "https://main.nl/",
+      "country": "Netherlands",
+      "kind": "private_equity",
+      "relevance": "Private equity-инвестор, специализирующийся на enterprise software и развитии международных software-групп. Гипотеза обращения: независимая техническая due diligence при платформенных и дополнительных приобретениях, оценка архитектуры, безопасности и объёма модернизации. Наличие собственной функции Product, Tech & AI означает, что подходящим предложением может быть узкая дополнительная экспертиза; потребность в ней не подтверждена. Сохранена официальная контактная страница с формой и командой; конкретный email и получатель до обращения требуют проверки.",
+      "contactChannel": "https://main.nl/contact/",
+      "sources": [
+        {
+          "url": "https://main.nl/",
+          "note": "Официальный сайт сообщает об инвестициях исключительно в Enterprise Software и построении международных software-групп; также перечисляет функцию Performance Excellence Product, Tech & AI."
+        },
+        {
+          "url": "https://main.nl/location/the-hague/",
+          "note": "Официальная страница штаб-квартиры называет Main Capital Partners нидерландской private equity-фирмой с фокусом на enterprise software и подтверждает головной офис в The Hague, Netherlands."
+        },
+        {
+          "url": "https://main.nl/contact/",
+          "note": "Официальная контактная страница содержит форму обращения, сведения о сотрудниках и офисах. Email в доступном тексте замаскирован, поэтому конкретный адрес не переносится как подтверждённый."
+        }
+      ]
+    },
+    {
+      "name": "Valsoft",
+      "website": "https://www.valsoftcorp.com/",
+      "country": "Canada",
+      "kind": "acquirer",
+      "relevance": "Покупатель и долгосрочный оператор mission-critical vertical-market software. Гипотеза обращения: независимая оценка технического долга, безопасности и операционной зависимости приобретаемых программных активов либо точечная экспертиза для M&A-команды. info@valsoftcorp.com опубликован как адрес общих запросов; официальный сайт также предлагает форму для направления к подходящей команде. Конкретный M&A-получатель, доставляемость адреса и потребность во внешней проверке не подтверждены.",
+      "contactChannel": "info@valsoftcorp.com",
+      "sources": [
+        {
+          "url": "https://www.valsoftcorp.com/",
+          "note": "Официальный сайт описывает приобретение и долгосрочное развитие mission-critical vertical-market software-компаний с автономией бизнеса."
+        },
+        {
+          "url": "https://www.valsoftcorp.com/contact",
+          "note": "Официальная страница контактов публикует info@valsoftcorp.com для General Inquiries, указывает базирование в Montreal, Canada, и канадские офисы в Montreal и Toronto."
+        }
+      ]
+    },
+    {
+      "name": "Vela Software Group",
+      "website": "https://velasoftwaregroup.com/",
+      "country": "Canada",
+      "kind": "acquirer",
+      "relevance": "Операционная группа Constellation Software, приобретающая, управляющая и развивающая отраслевые software-бизнесы с долгосрочным владением и децентрализованным управлением. Гипотеза обращения: независимая техническая due diligence или оценка будущих затрат на сопровождение отдельных приобретений. info@velasoftwaregroup.com опубликован как общий контакт Vela Software; доставляемость, подходящий M&A-получатель и потребность во внешней экспертизе не подтверждены.",
+      "contactChannel": "info@velasoftwaregroup.com",
+      "sources": [
+        {
+          "url": "https://velasoftwaregroup.com/",
+          "note": "Официальный сайт подтверждает, что Vela Software — группа Constellation Software, приобретающая и развивающая industry-specific software-бизнесы глобально, с постоянным владением и автономией приобретённых компаний."
+        },
+        {
+          "url": "https://velasoftwaregroup.com/connect/",
+          "note": "Официальная контактная страница публикует info@velasoftwaregroup.com, форму обращения и адрес Vela Software в Toronto, Ontario, Canada."
+        }
+      ]
+    },
+    {
+      "name": "Volaris Group",
+      "website": "https://www.volarisgroup.com/",
+      "country": "Canada",
+      "kind": "acquirer",
+      "relevance": "Покупатель и долгосрочный оператор software-компаний с сохранением автономии бизнеса; входит в Constellation Software. Отдельная официальная страница описывает работу с M&A-консультантами и выбор специалистов по отрасли или региону. Гипотеза обращения: дополнительная независимая техническая экспертиза для отдельных приобретений, включая архитектуру, технический долг и операционную независимость. Сохранён официальный канал контакта; конкретный email и потребность в сторонней экспертизе не подтверждены.",
+      "contactChannel": "https://www.volarisgroup.com/contact/",
+      "sources": [
+        {
+          "url": "https://www.volarisgroup.com/",
+          "note": "Официальный сайт описывает постоянное владение приобретёнными компаниями, автономию локального управления и долгосрочное развитие продуктов и команд."
+        },
+        {
+          "url": "https://www.volarisgroup.com/advisor/",
+          "note": "Официальная страница для M&A-консультантов подтверждает software M&A-фокус, принадлежность к Constellation Software и возможность выбрать M&A-специалиста по вертикальному рынку или региону. Это не подтверждение спроса на услуги технической due diligence."
+        },
+        {
+          "url": "https://www.volarisgroup.com/contact/",
+          "note": "Официальная страница контактов указывает Volaris Group в Mississauga, Ontario, Canada, и телефон 1 877-800-2558; конкретный email в доступном тексте отсутствует."
+        }
+      ]
+    },
+    {
+      "name": "Drake Star",
+      "website": "https://www.drakestar.com/",
+      "country": "United States / United Kingdom / France / Germany",
+      "kind": "advisor",
+      "relevance": "Международный инвестиционный банк с фокусом на технологических M&A и corporate finance, включая Software/SaaS, cybersecurity и IT automation. Гипотеза обращения: партнёрская независимая техническая оценка software-активов для подготовки сделки или дополнительной экспертизы по сложной архитектуре и безопасности. london-uk@drakestar.com опубликован как контакт лондонского офиса. География перечисляет подтверждённые офисы, единственная штаб-квартира не устанавливалась. Доставляемость адреса, подходящий специалист и заинтересованность в сотрудничестве не подтверждены.",
+      "contactChannel": "london-uk@drakestar.com",
+      "sources": [
+        {
+          "url": "https://www.drakestar.com/sector-expertise/software-saas",
+          "note": "Официальная страница Software/SaaS описывает M&A, growth financing и strategic advisory для software-компаний, включая Communications, Cybersecurity, IT Automation и MarTech & AdTech; перечисляет профильных специалистов."
+        },
+        {
+          "url": "https://www.drakestar.com/where-we-are",
+          "note": "Официальная страница офисов подтверждает присутствие в New York, London, Paris, Munich и других городах, публикует london-uk@drakestar.com для London и отдельные адреса других офисов."
+        }
+      ]
+    },
+    {
+      "name": "Corum Group",
+      "website": "https://www.corumgroup.com/",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "M&A-консультант продавцов частных software- и смежных технологических компаний. Официальный FAQ описывает подготовку к сделке и прохождение due diligence, включая проверку технических и операционных данных. Гипотеза обращения: независимая техническая оценка готовности software-продавца и доказательная подготовка к вопросам покупателя. corum@corumgroup.com опубликован как общий контакт; доставляемость адреса и заинтересованность в дополнительном техническом партнёре не проверены.",
+      "contactChannel": "corum@corumgroup.com",
+      "sources": [
+        {
+          "url": "https://www.corumgroup.com/faq",
+          "note": "Официальный FAQ подтверждает посредничество при продаже и рекапитализации software-компаний и работу с частными software- и смежными технологическими компаниями; раздел due diligence перечисляет технические, операционные и финансовые материалы."
+        },
+        {
+          "url": "https://www.corumgroup.com/contact-corum",
+          "note": "Официальная контактная страница публикует corum@corumgroup.com и адрес Corum Group Ltd. в Bothell, Washington, USA, а также форму обращения и региональные разделы."
+        }
+      ]
+    },
+    {
+      "name": "saas.group",
+      "website": "https://saas.group/",
+      "country": "United States / Germany / France",
+      "kind": "acquirer",
+      "relevance": "Покупатель bootstrapped SaaS-компаний, заявляющий сохранение идентичности продуктов и команд и дальнейшее развитие приобретённых бизнесов. Гипотеза обращения: дополнительная независимая оценка архитектуры, безопасности, сопровождаемости и зависимости от основателей при отдельных приобретениях. info@saas.group опубликован как общий контакт; официальная форма допускает обращения по другим вопросам и рекомендации компаний. Доставляемость адреса, конкретный получатель и потребность во внешней технической due diligence не подтверждены.",
+      "contactChannel": "info@saas.group",
+      "sources": [
+        {
+          "url": "https://saas.group/",
+          "note": "Официальный сайт подтверждает приобретение SaaS-компаний с bootstrapper mindset и подход, предусматривающий развитие продукта и команды с сохранением идентичности бизнеса."
+        },
+        {
+          "url": "https://saas.group/get-in-touch/",
+          "note": "Официальная контактная страница публикует info@saas.group, форму с вариантами Get Acquired, Refer a Company и Something Else, а также юридические лица и адреса в USA, Germany и France."
+        }
+      ]
+    }
+  ]
+}
