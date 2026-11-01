@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-01:recovery:2026-10-26",
+  "producer": "chatgpt",
+  "query": "Recovery backfill of 2026-10-26 Shedko Advisory international M&A and software investor prospects, from prior chat shortlist; unverified pending operator review.",
+  "researchedAt": "2026-11-01T08:18:38Z",
+  "records": [
+    {
+      "name": "Avero Advisory",
+      "website": "https://averoadvisory.com",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-26 Shedko Advisory outreach list. Proposed approach: Independent technical exit-readiness assessment for software sellers. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "robert.young@averoadvisory.com",
+      "sources": [
+        {
+          "url": "https://averoadvisory.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "ARTHOS Corporate Finance",
+      "website": "https://www.arthos.de",
+      "country": "Germany",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-26 Shedko Advisory outreach list. Proposed approach: External technology diligence for German software acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "arne.toedt@arthos.de",
+      "sources": [
+        {
+          "url": "https://www.arthos.de/en/software-saas/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "WTA Partners",
+      "website": "https://wtallp.com",
+      "country": "United Kingdom / Canada",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-26 Shedko Advisory outreach list. Proposed approach: Technical due diligence support for cross-border technology M&A mandates. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@wtallp.com",
+      "sources": [
+        {
+          "url": "https://wtallp.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "New Momentum Partners",
+      "website": "https://www.nm-partners.com",
+      "country": "United States / Czech Republic",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-26 Shedko Advisory outreach list. Proposed approach: Independent software and AI assessment for US-EU acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@nm-partners.com",
+      "sources": [
+        {
+          "url": "https://www.nm-partners.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "XQUENT",
+      "website": "https://www.xquent.com",
+      "country": "Germany",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-26 Shedko Advisory outreach list. Proposed approach: Focused technical diligence for DACH software buyouts. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@xquent.com",
+      "sources": [
+        {
+          "url": "https://www.xquent.com/en/software",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "iMerge Advisors",
+      "website": "https://imergeadvisors.com",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-26 Shedko Advisory outreach list. Proposed approach: Pre-sale technical risk assessment for SaaS founders. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@imergeadvisors.com",
+      "sources": [
+        {
+          "url": "https://imergeadvisors.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Software Combined",
+      "website": "https://www.softwarecombined.com.au",
+      "country": "Australia / Netherlands",
+      "kind": "acquirer",
+      "relevance": "Prospect from the previously delivered 2026-10-26 Shedko Advisory outreach list. Proposed approach: Independent technical assessment for Benelux software acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@softwarecombined.com.au",
+      "sources": [
+        {
+          "url": "https://www.softwarecombined.com.au",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Equiteq",
+      "website": "https://www.equiteq.com",
+      "country": "United Kingdom / United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-26 Shedko Advisory outreach list. Proposed approach: Specialist technical diligence for AI engineering and tech services M&A. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@equiteq.com",
+      "sources": [
+        {
+          "url": "https://www.equiteq.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    }
+  ]
+}

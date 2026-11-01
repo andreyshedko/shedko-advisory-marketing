@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-01:recovery:2026-10-27",
+  "producer": "chatgpt",
+  "query": "Recovery backfill of 2026-10-27 Shedko Advisory international M&A and software investor prospects, from prior chat shortlist; unverified pending operator review.",
+  "researchedAt": "2026-11-01T08:18:38Z",
+  "records": [
+    {
+      "name": "LNP Corporate Finance",
+      "website": "https://lnpgroup.com",
+      "country": "Denmark / Netherlands",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-27 Shedko Advisory outreach list. Proposed approach: Technical DD support for Nordic and Benelux software acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "jl@lnpgroup.com",
+      "sources": [
+        {
+          "url": "https://lnpgroup.com/contact/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Obair Partners",
+      "website": "https://obair.partners",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-27 Shedko Advisory outreach list. Proposed approach: Technical diligence for private-equity backed software transactions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "james@obair.partners",
+      "sources": [
+        {
+          "url": "https://obair.partners",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "connexxa",
+      "website": "https://www.connexxa.de",
+      "country": "Germany",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-27 Shedko Advisory outreach list. Proposed approach: Technical exit readiness assessments for DACH software sellers. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "barthel@connexxa.de",
+      "sources": [
+        {
+          "url": "https://www.connexxa.de/wer-wir-sind.html",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Ciesco",
+      "website": "https://www.ciesco.com",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-27 Shedko Advisory outreach list. Proposed approach: Independent AI software assessments for M&A. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "ateesh.srivastava@ciesco.com",
+      "sources": [
+        {
+          "url": "https://www.ciesco.com/our-team/ateesh-srivastava",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Embrace Software Inc.",
+      "website": "https://www.embracesoftwareinc.com",
+      "country": "United States",
+      "kind": "acquirer",
+      "relevance": "Prospect from the previously delivered 2026-10-27 Shedko Advisory outreach list. Proposed approach: Focused independent technical reviews during acquisition diligence. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "acquisitions@embracesoftwareinc.com",
+      "sources": [
+        {
+          "url": "https://www.embracesoftwareinc.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Oaklins Intrepid",
+      "website": "https://www.oaklins.com",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-27 Shedko Advisory outreach list. Proposed approach: Technical diligence for middle-market software M&A. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "cpark@intrepidib.com",
+      "sources": [
+        {
+          "url": "https://www.oaklins.com/us/en/team/5651/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Evolution Capital",
+      "website": "https://evolutioncapital.com",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-27 Shedko Advisory outreach list. Proposed approach: Technical risk assessment alongside financial diligence. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "Info@evolutioncapital.com",
+      "sources": [
+        {
+          "url": "https://evolutioncapital.com/contact-us/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Software Capital Advisors",
+      "website": "https://www.soft-cap.com",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-27 Shedko Advisory outreach list. Proposed approach: Pre-sale technical readiness for founder-owned software companies. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@softwarecap.com",
+      "sources": [
+        {
+          "url": "https://www.soft-cap.com/contact",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Handmade Ventures",
+      "website": "https://www.handmade.vc",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-27 Shedko Advisory outreach list. Proposed approach: AI-built software risk assessments before buyer diligence. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "yvan@handmade.vc",
+      "sources": [
+        {
+          "url": "https://www.handmade.vc",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    }
+  ]
+}

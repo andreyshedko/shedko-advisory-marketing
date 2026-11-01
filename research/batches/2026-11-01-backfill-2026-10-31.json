@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-01:recovery:2026-10-31",
+  "producer": "chatgpt",
+  "query": "Recovery backfill of 2026-10-31 Shedko Advisory international M&A and software investor prospects, from prior chat shortlist; unverified pending operator review.",
+  "researchedAt": "2026-11-01T08:18:38Z",
+  "records": [
+    {
+      "name": "Green Horizon Partners",
+      "website": "https://www.greenhorizoncp.com",
+      "country": "United States / United Kingdom / Spain",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-31 Shedko Advisory outreach list. Proposed approach: Technical due diligence for fintech and GRC acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "max.schramm@greenhorizoncp.com",
+      "sources": [
+        {
+          "url": "https://www.greenhorizoncp.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Ennea Capital Partners",
+      "website": "https://ennea-partners.com",
+      "country": "Germany / United Kingdom",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-31 Shedko Advisory outreach list. Proposed approach: Technology due diligence for travel software acquisitions and API integrations. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "jan@ennea-partners.com",
+      "sources": [
+        {
+          "url": "https://ennea-partners.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "FirstCapital",
+      "website": "https://www.firstcapital.co.uk",
+      "country": "United Kingdom / United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-31 Shedko Advisory outreach list. Proposed approach: Pre-exit technical readiness for AI software companies. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@firstcapital.co.uk",
+      "sources": [
+        {
+          "url": "https://www.firstcapital.co.uk/contact/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Cascadia Capital",
+      "website": "https://www.cascadiacapital.com",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-31 Shedko Advisory outreach list. Proposed approach: Technical risk assessment for enterprise software M&A. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "jcantwell@cascadiacapital.com",
+      "sources": [
+        {
+          "url": "https://www.cascadiacapital.com/industries/software/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Clairfield International",
+      "website": "https://www.clairfield.com",
+      "country": "Netherlands",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-31 Shedko Advisory outreach list. Proposed approach: Independent technical DD for cross-border European software transactions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "wgiard@clairfield.com",
+      "sources": [
+        {
+          "url": "https://www.clairfield.com/team_member/wouter-giard/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Capstone Partners",
+      "website": "https://www.capstonepartners.com",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-31 Shedko Advisory outreach list. Proposed approach: Focused technical assessments for software and AI deals. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "arippy@capstonepartners.com",
+      "sources": [
+        {
+          "url": "https://www.capstonepartners.com/advisors/andrew-rippy/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Progress Partners",
+      "website": "https://www.progresspartners.com",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-31 Shedko Advisory outreach list. Proposed approach: Technology due diligence for adtech and data software acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "nmacshane@progresspartners.com",
+      "sources": [
+        {
+          "url": "https://www.progresspartners.com/ourteam/nick-macshane",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "InterFinancial",
+      "website": "https://interfinancial.com.au",
+      "country": "Australia",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-31 Shedko Advisory outreach list. Proposed approach: EU-focused technical diligence support for cross-border Australian tech M&A. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "admin@interfinancial.com.au",
+      "sources": [
+        {
+          "url": "https://interfinancial.com.au/contact/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Software Growth Partners",
+      "website": "https://softwaregrowthpartners.com",
+      "country": "United States",
+      "kind": "private_equity",
+      "relevance": "Prospect from the previously delivered 2026-10-31 Shedko Advisory outreach list. Proposed approach: Technical risk evaluation for software platform and add-on acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@softwaregrowthpartners.com",
+      "sources": [
+        {
+          "url": "https://softwaregrowthpartners.com/companies/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    }
+  ]
+}

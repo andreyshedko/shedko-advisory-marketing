@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-01:recovery:2026-11-01",
+  "producer": "chatgpt",
+  "query": "Recovery backfill of 2026-11-01 Shedko Advisory international M&A and software investor prospects, from prior chat shortlist; unverified pending operator review.",
+  "researchedAt": "2026-11-01T08:18:38Z",
+  "records": [
+    {
+      "name": "Goldenhill International M&A Advisors",
+      "website": "https://goldenhill.international",
+      "country": "United Kingdom / United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-11-01 Shedko Advisory outreach list. Proposed approach: Technical due diligence for wealthtech and regtech acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "chris.brooke@gtallp.com",
+      "sources": [
+        {
+          "url": "https://goldenhill.international/sectors/fintech/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Princelet Partners",
+      "website": "https://www.princelet.com",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-11-01 Shedko Advisory outreach list. Proposed approach: Pre-sale technical readiness for middle-market software exits. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@princelet.com",
+      "sources": [
+        {
+          "url": "https://www.princelet.com/contact-us",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Q Advisors",
+      "website": "https://www.qllc.com",
+      "country": "United States / Germany",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-11-01 Shedko Advisory outreach list. Proposed approach: Technical integration assessments for cloud and managed IT acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "maccarter@qllc.com",
+      "sources": [
+        {
+          "url": "https://www.qllc.com/team",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Latimer Partners",
+      "website": "https://latimer.partners",
+      "country": "Australia",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-11-01 Shedko Advisory outreach list. Proposed approach: European technical DD support for international technology acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "mark.nesbitt@latimer.partners",
+      "sources": [
+        {
+          "url": "https://latimer.partners/about",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Genaesis",
+      "website": "https://www.genaesis.com",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-11-01 Shedko Advisory outreach list. Proposed approach: Technical diligence for government technology and services acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "meghan.obrien@genaesis.com",
+      "sources": [
+        {
+          "url": "https://www.genaesis.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "SI Global",
+      "website": "https://www.siglobal.com",
+      "country": "United Kingdom / United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-11-01 Shedko Advisory outreach list. Proposed approach: Technology diligence for PE-backed IT services acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "infoLDN@sipartnersglobal.com",
+      "sources": [
+        {
+          "url": "https://www.siglobal.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Woodside Capital Partners",
+      "website": "https://woodsidecap.com",
+      "country": "United States / United Kingdom",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-11-01 Shedko Advisory outreach list. Proposed approach: Security and AI architecture assessments for technology M&A. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "nishant.jadhav@woodsidecap.com",
+      "sources": [
+        {
+          "url": "https://woodsidecap.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Bowmark Capital",
+      "website": "https://www.bowmark.com",
+      "country": "United Kingdom",
+      "kind": "private_equity",
+      "relevance": "Prospect from the previously delivered 2026-11-01 Shedko Advisory outreach list. Proposed approach: Technology due diligence for construction ERP and vertical software buy-and-build. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@bowmark.com",
+      "sources": [
+        {
+          "url": "https://www.bowmark.com/contact",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    }
+  ]
+}

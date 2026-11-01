@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-01:recovery:2026-10-29",
+  "producer": "chatgpt",
+  "query": "Recovery backfill of 2026-10-29 Shedko Advisory international M&A and software investor prospects, from prior chat shortlist; unverified pending operator review.",
+  "researchedAt": "2026-11-01T08:18:38Z",
+  "records": [
+    {
+      "name": "PCB Partners",
+      "website": "https://www.pcbpartners.co.uk",
+      "country": "United Kingdom / United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-29 Shedko Advisory outreach list. Proposed approach: Technical diligence for IT services acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "ben@pcbpartners.co.uk",
+      "sources": [
+        {
+          "url": "https://www.pcbpartners.co.uk/our-people/ben-doltis/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Knight Corporate Finance",
+      "website": "https://knightcf.com",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-29 Shedko Advisory outreach list. Proposed approach: Add technology readiness assessments to vendor assist offering. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "enquiries@knightcf.com",
+      "sources": [
+        {
+          "url": "https://knightcf.com/services/preparing-for-a-transaction/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Acuity Advisors",
+      "website": "https://www.acuity.co.uk",
+      "country": "United Kingdom / United States",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-29 Shedko Advisory outreach list. Proposed approach: Pre-exit technical risk assessments for software and AI companies. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "r.baker@acuity.co.uk",
+      "sources": [
+        {
+          "url": "https://www.acuity.co.uk/team/richard-baker/",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "MCF Corporate Finance",
+      "website": "https://www.mcfcorpfin.com",
+      "country": "Germany / United Kingdom",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-29 Shedko Advisory outreach list. Proposed approach: Technology diligence for cybersecurity and software M&A. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "lei@mcfcorpfin.com",
+      "sources": [
+        {
+          "url": "https://www.mcfcorpfin.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Stelvio Partners",
+      "website": "https://www.stelviopartners.com",
+      "country": "Spain",
+      "kind": "advisor",
+      "relevance": "Prospect from the previously delivered 2026-10-29 Shedko Advisory outreach list. Proposed approach: Technical DD for Iberian technology acquisitions. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "info@stelviopartners.com",
+      "sources": [
+        {
+          "url": "https://www.stelviopartners.com/en/contact-us",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "GRO Capital",
+      "website": "https://www.grocapital.dk",
+      "country": "Denmark / United Kingdom",
+      "kind": "private_equity",
+      "relevance": "Prospect from the previously delivered 2026-10-29 Shedko Advisory outreach list. Proposed approach: Technology risk assessments for industrial AI and cybersecurity investments. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "ll@grocapital.dk",
+      "sources": [
+        {
+          "url": "https://www.grocapital.dk",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Perwyn",
+      "website": "https://www.perwyn.com",
+      "country": "United Kingdom / France / Italy",
+      "kind": "private_equity",
+      "relevance": "Prospect from the previously delivered 2026-10-29 Shedko Advisory outreach list. Proposed approach: Technology due diligence for software buy-and-build platforms. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "contact@perwyn.com",
+      "sources": [
+        {
+          "url": "https://www.perwyn.com/contact-us",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    },
+    {
+      "name": "Monterro",
+      "website": "https://www.monterro.com",
+      "country": "Sweden / United Kingdom",
+      "kind": "private_equity",
+      "relevance": "Prospect from the previously delivered 2026-10-29 Shedko Advisory outreach list. Proposed approach: Independent technical second opinion for cross-border software M&A. Commercial fit is a hypothesis; no interest in collaboration has been confirmed. Details should be reverified before outreach.",
+      "contactChannel": "erik.syren@monterro.com",
+      "sources": [
+        {
+          "url": "https://www.monterro.com",
+          "note": "Official website/source link reported in the earlier prospect shortlist. Contact address and source details were not independently reverified in this backfill; operator review is required."
+        }
+      ]
+    }
+  ]
+}
