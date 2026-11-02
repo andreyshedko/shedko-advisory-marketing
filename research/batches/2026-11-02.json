@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-02:daily-prospects",
+  "producer": "chatgpt",
+  "query": "Eight international technology M&A advisers and software acquirers, research for Shedko Advisory",
+  "researchedAt": "2026-11-02T08:08:57Z",
+  "records": [
+    {
+      "name": "Beekers Capital",
+      "website": "https://www.beekerscapital.com/",
+      "country": "Netherlands",
+      "kind": "advisor",
+      "relevance": "Tech M&A adviser. 10 July 2026 Intra Pricing Solutions sale to Alphatax. Pitch technical exit-readiness for software sellers.",
+      "contactChannel": "rik@beekerscapital.com",
+      "sources": [
+        {
+          "url": "https://www.beekerscapital.com/team",
+          "note": "Official contact or business evidence"
+        },
+        {
+          "url": "https://www.beekerscapital.com/insights/advised-transfer-pricing-documentation-software-platform-intra-pricing-solutions-and-its-shareholders-on-their-successful-exit-to-alphatax",
+          "note": "Additional supporting source"
+        }
+      ]
+    },
+    {
+      "name": "Business and Capital Advisory",
+      "website": "https://www.businessandcapital.com/",
+      "country": "France",
+      "kind": "advisor",
+      "relevance": "Paris-linked tech M&A boutique, live RegTech SaaS and enterprise data infrastructure mandates. Pitch independent pre-sale technical readiness.",
+      "contactChannel": "contact@businessandcapital.com",
+      "sources": [
+        {
+          "url": "https://www.businessandcapital.com/",
+          "note": "Official contact or business evidence"
+        },
+        {
+          "url": "https://fr.linkedin.com/in/bryancastan",
+          "note": "Additional supporting source"
+        }
+      ]
+    },
+    {
+      "name": "Lighthouse Advisory Partners",
+      "website": "https://lighthouse-advisory.co.uk/",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Buy-side technology M&A and commercial DD; pitch complementary technical DD module.",
+      "contactChannel": "info@lighthouse-advisory.co.uk",
+      "sources": [
+        {
+          "url": "https://lighthouse-advisory.co.uk/about-us/",
+          "note": "Official contact or business evidence"
+        },
+        {
+          "url": "https://lighthouse-advisory.co.uk/contact/",
+          "note": "Additional supporting source"
+        }
+      ]
+    },
+    {
+      "name": "Silverpeak",
+      "website": "https://www.silverpeakib.com/",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "12 March 2026 Becrypt cybersecurity sale to Leonardo; pitch software security architecture technical risk review.",
+      "contactChannel": "ps@silverpeakib.com",
+      "sources": [
+        {
+          "url": "https://www.silverpeakib.com/member/pietro-strada/",
+          "note": "Official contact or business evidence"
+        },
+        {
+          "url": "https://www.silverpeakib.com/silverpeak-advises-becrypt-on-its-sale-to-leonardo/",
+          "note": "Additional supporting source"
+        }
+      ]
+    },
+    {
+      "name": "Vesta Software Group",
+      "website": "https://www.vestasoftwaregroup.com/",
+      "country": "United Kingdom",
+      "kind": "acquirer",
+      "relevance": "10 September 2026 Aucxis acquisition. Pitch cross-border niche software technical assessments.",
+      "contactChannel": "francesco.setola@vestasoftwaregroup.com",
+      "sources": [
+        {
+          "url": "https://www.vestasoftwaregroup.com/contact/",
+          "note": "Official contact or business evidence"
+        },
+        {
+          "url": "https://www.vestasoftwaregroup.com/vesta-software-group-acquires-aucxis-bv/",
+          "note": "Additional supporting source"
+        }
+      ]
+    },
+    {
+      "name": "Fluent Software Group",
+      "website": "https://www.fluentsoftwaregroup.com/",
+      "country": "Canada",
+      "kind": "acquirer",
+      "relevance": "Vertical B2B software acquirer with 25+ portfolio companies and AI transformation strategy. Pitch legacy software and AI integration readiness.",
+      "contactChannel": "info@fluentcorp.com",
+      "sources": [
+        {
+          "url": "https://www.fluentsoftwaregroup.com/",
+          "note": "Official contact or business evidence"
+        },
+        {
+          "url": "https://www.fluentsoftwaregroup.com/",
+          "note": "Additional supporting source"
+        }
+      ]
+    },
+    {
+      "name": "E1 Advisory",
+      "website": "https://www.e1advisory.com/",
+      "country": "United Kingdom / Canada",
+      "kind": "advisor",
+      "relevance": "Software sell-side M&A boutique for owner-operated businesses. Pitch compact pre-sale technical readiness reviews.",
+      "contactChannel": "info@e1advisory.com",
+      "sources": [
+        {
+          "url": "https://www.e1advisory.com/",
+          "note": "Official contact or business evidence"
+        },
+        {
+          "url": "https://www.e1advisory.com/about-us",
+          "note": "Additional supporting source"
+        }
+      ]
+    },
+    {
+      "name": "Wh4 Ltd",
+      "website": "https://www.wh4.co.uk/",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Tech buy-side/sell-side M&A group. Pitch white-label technical DD for AI and fintech software transactions.",
+      "contactChannel": "hello@wh4.co.uk",
+      "sources": [
+        {
+          "url": "https://www.wh4.co.uk/contact.html",
+          "note": "Official contact or business evidence"
+        },
+        {
+          "url": "https://www.wh4.co.uk/advisory.html",
+          "note": "Additional supporting source"
+        }
+      ]
+    }
+  ]
+}
