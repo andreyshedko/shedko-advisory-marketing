@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-02:supplement-independent-advisors",
+  "producer": "chatgpt",
+  "query": "Additional two independent M&A boutiques for Shedko Advisory, 2026-11-02",
+  "researchedAt": "2026-11-02T08:08:57Z",
+  "records": [
+    {
+      "name": "Cavalier Capital",
+      "website": "https://cavaliercapital.co/",
+      "country": "France",
+      "kind": "advisor",
+      "relevance": "Paris independent tech M&A boutique founded 2025; software and tech-enabled M&A and LBO with EUR 10-200m enterprise value; October 2026 software exit-preparation content. Pitch independent technical exit-readiness and AI/software architecture assessment. Contact Lucas Pingard, Partner. Prior 40+ deals refer to partner experience, not necessarily firm completed deals.",
+      "contactChannel": "lucas.pingard@cavaliercapital.co",
+      "sources": [
+        {
+          "url": "https://cavaliercapital.co/",
+          "note": "Direct email, team and tech M&A scope"
+        },
+        {
+          "url": "https://cavaliercapital.co/fr/equipe-lucas-pingard",
+          "note": "Partner profile and prior transactions"
+        }
+      ]
+    },
+    {
+      "name": "CapEQ",
+      "website": "https://capeq.com/",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "London M&A boutique with technology/software transaction experience including Really Simple Systems, Factmata, Autus Data; vendor due diligence and transaction advisory. Pitch independent technical readiness for founder-owned software exits. Contact James Pugh, Co-Founder and Partner, via public general inbox. Specific 2026 tech transaction not verified.",
+      "contactChannel": "info@capeq.com",
+      "sources": [
+        {
+          "url": "https://capeq.com/",
+          "note": "Transaction and vendor diligence focus"
+        },
+        {
+          "url": "https://capeq.com/contact-us",
+          "note": "Official public email"
+        },
+        {
+          "url": "https://capeq.com/about-us",
+          "note": "Partner name"
+        }
+      ]
+    }
+  ]
+}
