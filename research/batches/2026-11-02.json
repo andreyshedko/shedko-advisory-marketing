@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "runId": "chatgpt:2026-11-02:daily-prospects",
+  "runId": "chatgpt:2026-11-02:daily-independent-advisors",
   "producer": "chatgpt",
-  "query": "Eight international technology M&A advisers and software acquirers, research for Shedko Advisory",
+  "query": "Six independent technology M&A advisory prospects; software buyer subsidiaries of previously covered groups excluded",
   "researchedAt": "2026-11-02T08:08:57Z",
   "records": [
     {
@@ -73,42 +73,6 @@
         },
         {
           "url": "https://www.silverpeakib.com/silverpeak-advises-becrypt-on-its-sale-to-leonardo/",
-          "note": "Additional supporting source"
-        }
-      ]
-    },
-    {
-      "name": "Vesta Software Group",
-      "website": "https://www.vestasoftwaregroup.com/",
-      "country": "United Kingdom",
-      "kind": "acquirer",
-      "relevance": "10 September 2026 Aucxis acquisition. Pitch cross-border niche software technical assessments.",
-      "contactChannel": "francesco.setola@vestasoftwaregroup.com",
-      "sources": [
-        {
-          "url": "https://www.vestasoftwaregroup.com/contact/",
-          "note": "Official contact or business evidence"
-        },
-        {
-          "url": "https://www.vestasoftwaregroup.com/vesta-software-group-acquires-aucxis-bv/",
-          "note": "Additional supporting source"
-        }
-      ]
-    },
-    {
-      "name": "Fluent Software Group",
-      "website": "https://www.fluentsoftwaregroup.com/",
-      "country": "Canada",
-      "kind": "acquirer",
-      "relevance": "Vertical B2B software acquirer with 25+ portfolio companies and AI transformation strategy. Pitch legacy software and AI integration readiness.",
-      "contactChannel": "info@fluentcorp.com",
-      "sources": [
-        {
-          "url": "https://www.fluentsoftwaregroup.com/",
-          "note": "Official contact or business evidence"
-        },
-        {
-          "url": "https://www.fluentsoftwaregroup.com/",
           "note": "Additional supporting source"
         }
       ]
