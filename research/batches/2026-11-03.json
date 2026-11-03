@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-03",
+  "producer": "chatgpt",
+  "query": "New international technology M&A advisers and software acquirers for independent Technical DD outreach",
+  "researchedAt": "2026-11-03T08:00:00Z",
+  "records": [
+    {
+      "name": "Sequence Advisers",
+      "website": "https://sequenceadvisers.co.uk/",
+      "country": "United Kingdom",
+      "kind": "advisor",
+      "relevance": "Technology M&A adviser; advised Rubixx sale to Elevare Software and Matrix Booking sale to Volaris Group. Potential technical exit readiness partner.",
+      "contactChannel": "contact@sequenceadvisers.co.uk",
+      "sources": [
+        {
+          "url": "https://sequenceadvisers.co.uk/",
+          "note": "Public company source checked on 2026-11-03; relevance is an outreach hypothesis, not verified interest."
+        }
+      ]
+    },
+    {
+      "name": "Consilio Partners",
+      "website": "https://consilio-partners.com/",
+      "country": "Denmark",
+      "kind": "advisor",
+      "relevance": "Copenhagen M&A adviser with software transactions including Wizkid sale to Texthelp and Multi:IT sale to Vækstpartner Kapital; potential outsourced technical assessment partner.",
+      "contactChannel": "jath@consilio-partners.com",
+      "sources": [
+        {
+          "url": "https://consilio-partners.com/transaktioner/",
+          "note": "Public company source checked on 2026-11-03; relevance is an outreach hypothesis, not verified interest."
+        }
+      ]
+    },
+    {
+      "name": "Perenia",
+      "website": "https://www.perenia.ai/",
+      "country": "France",
+      "kind": "advisor",
+      "relevance": "AI-enabled M&A adviser working with searchers, serial acquirers and private equity; potential modular independent technology DD partnership.",
+      "contactChannel": "https://www.perenia.ai/",
+      "sources": [
+        {
+          "url": "https://www.perenia.ai/",
+          "note": "Public company source checked on 2026-11-03; relevance is an outreach hypothesis, not verified interest."
+        }
+      ]
+    },
+    {
+      "name": "Altivis Partners",
+      "website": "https://www.altivispartners.com/",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Dallas M&A boutique advising vertical SaaS, infrastructure software and data analytics, including buy-side and diligence preparation; potential specialist technical review partner.",
+      "contactChannel": "vlongan@altivispartners.com",
+      "sources": [
+        {
+          "url": "https://www.altivispartners.com/industries/software-and-technology",
+          "note": "Public company source checked on 2026-11-03; relevance is an outreach hypothesis, not verified interest."
+        }
+      ]
+    },
+    {
+      "name": "Headwall Equity",
+      "website": "https://www.headwallequity.com/",
+      "country": "United States",
+      "kind": "private_equity",
+      "relevance": "Growth buyout investor focused on AI-enabled B2B technology, software and services; potential independent AI architecture and technical risk assessments.",
+      "contactChannel": "info@headwallequity.com",
+      "sources": [
+        {
+          "url": "https://www.headwallequity.com/",
+          "note": "Public company source checked on 2026-11-03; relevance is an outreach hypothesis, not verified interest."
+        }
+      ]
+    },
+    {
+      "name": "Spring Street Capital",
+      "website": "https://www.springstcap.com/",
+      "country": "United States",
+      "kind": "search_fund",
+      "relevance": "Software acquirer focused on healthcare software, seeking businesses with $10-30m enterprise value per its 2024 launch; current acquisition activity not independently confirmed.",
+      "contactChannel": "hello@springstcap.com",
+      "sources": [
+        {
+          "url": "https://springstcap.com/articles/spring-street-capital-launches-in-2024/",
+          "note": "Public company source checked on 2026-11-03; relevance is an outreach hypothesis, not verified interest."
+        }
+      ]
+    }
+  ]
+}
