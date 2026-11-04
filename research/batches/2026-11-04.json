@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-04",
+  "producer": "chatgpt",
+  "query": "New international software M&A advisors and serial software buyers for independent technical due diligence partnerships; six verified official sites; do not treat prospect interest as verified.",
+  "researchedAt": "2026-11-04T08:03:39Z",
+  "records": [
+    {
+      "name": "Spector M&A",
+      "website": "https://www.spectorma.com/",
+      "country": "Denmark",
+      "kind": "advisor",
+      "relevance": "Nordic boutique serving software and agentic AI founders and PE; offers financial transaction diligence but technology DD is a potential complementary service. Outreach angle: independent technical diligence module alongside SaaS financial diligence.",
+      "contactChannel": "https://www.spectorma.com/",
+      "sources": [
+        {
+          "url": "https://www.spectorma.com/",
+          "note": "Official site: partners, 450+ claimed technology transactions, financial DD and contact information."
+        },
+        {
+          "url": "https://www.spectorma.com/for-private-equity",
+          "note": "PE transaction diligence offering; technology diligence partnership is an unverified hypothesis."
+        }
+      ]
+    },
+    {
+      "name": "Capital Row",
+      "website": "https://thecapitalrow.com/",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Vertical software M&A advisory with pre-market financial reviews and buyer acquisition criteria. Angle: pair financial pre-market assessment with technical architecture, API and security readiness.",
+      "contactChannel": "team@thecapitalrow.com",
+      "sources": [
+        {
+          "url": "https://thecapitalrow.com/",
+          "note": "Official website: vertical software M&A and buy-side sourcing."
+        },
+        {
+          "url": "https://thecapitalrow.com/sellers/",
+          "note": "Official website publicly lists team@thecapitalrow.com and pre-market assessment."
+        }
+      ]
+    },
+    {
+      "name": "Software Capital Advisors",
+      "website": "https://www.soft-cap.com/",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Software-only sell-side investment bank; prepares founder-owned companies for buyer diligence. Angle: fixed-scope pre-exit technical risk review and evidence-based remediation list.",
+      "contactChannel": "info@softwarecap.com",
+      "sources": [
+        {
+          "url": "https://www.soft-cap.com/",
+          "note": "Official site: software-only sell-side M&A and pre-market preparation."
+        },
+        {
+          "url": "https://www.soft-cap.com/contact",
+          "note": "Official contact page publicly lists email."
+        }
+      ]
+    },
+    {
+      "name": "VVV Equity Partners",
+      "website": "https://vvvequitypartners.com/",
+      "country": "United States",
+      "kind": "acquirer",
+      "relevance": "Permanent-capital acquirer of vertical systems-of-record; acquired TurboPT in May 2026 and AutoRaptor in December 2024. Angle: repeatable technical diligence for EHR and automotive CRM acquisitions, focusing on data migrations and integration risks.",
+      "contactChannel": "mj@vvvequitypartners.com",
+      "sources": [
+        {
+          "url": "https://vvvequitypartners.com/companies",
+          "note": "Official portfolio page: May 2026 TurboPT acquisition, prior AutoRaptor acquisition and public email."
+        }
+      ]
+    },
+    {
+      "name": "Verticor",
+      "website": "https://www.verticor.com/",
+      "country": "United States",
+      "kind": "private_equity",
+      "relevance": "Independent sponsor targeting mission-critical vertical software with $2m-$30m annual revenue. Angle: independent technical second opinion on AI transformation feasibility, software debt and security during investment diligence.",
+      "contactChannel": "anthony@verticor.com",
+      "sources": [
+        {
+          "url": "https://www.verticor.com/",
+          "note": "Official site: Anthony Odie Founder & Partner, public email, investment criteria and strategic M&A."
+        }
+      ]
+    },
+    {
+      "name": "Apex Point Equity",
+      "website": "https://apexpointequity.com/",
+      "country": "United States",
+      "kind": "acquirer",
+      "relevance": "Micro-PE asset purchaser of founder-led B2B SaaS with $500k+ ARR. Angle: cost-controlled technical red-flag assessment before asset purchase, with security, dependencies, IP ownership and handover checks.",
+      "contactChannel": "info@apexpointequity.com",
+      "sources": [
+        {
+          "url": "https://apexpointequity.com/",
+          "note": "Official site: investment thesis, Eric Spielman and Alen Durbuzovic, public email."
+        },
+        {
+          "url": "https://apexpointequity.com/contact-us",
+          "note": "Official contact form and email."
+        }
+      ]
+    }
+  ]
+}
