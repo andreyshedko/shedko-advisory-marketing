@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "runId": "chatgpt:2026-11-06",
+  "producer": "chatgpt",
+  "query": "New international M&A advisors and software acquirers for independent technology due diligence outreach",
+  "researchedAt": "2026-11-06T08:00:33Z",
+  "records": [
+    {
+      "name": "WTA Partners",
+      "website": "https://wtallp.com/",
+      "country": "United Kingdom / Canada",
+      "kind": "advisor",
+      "relevance": "Technology-only M&A boutique with buy-side mandates, exit readiness and April 17 2026 Omni/Barbour Logic transaction. Potential independent technology diligence partner.",
+      "contactChannel": "info@wtallp.com",
+      "sources": [
+        {
+          "url": "https://wtallp.com/",
+          "note": "Buy and sell mandates, software focus and April 2026 transaction"
+        },
+        {
+          "url": "https://wtallp.com/contact-us/",
+          "note": "Published email and contact form"
+        }
+      ]
+    },
+    {
+      "name": "733Park",
+      "website": "https://www.733park.com/",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Founder-led fintech, payments, AI and vertical SaaS M&A boutique, including buy-side and exit readiness. Potential technical DD for AI platform claims and payments architecture.",
+      "contactChannel": "info@733park.com",
+      "sources": [
+        {
+          "url": "https://www.733park.com/info/",
+          "note": "M&A focus and Lane Gordon leadership"
+        },
+        {
+          "url": "https://www.733park.com/press/",
+          "note": "Published email"
+        },
+        {
+          "url": "https://www.733park.com/insights/geniusvets-joins-forces-with-prosites-in-strategic-acquisition-led-by-733park/",
+          "note": "Transaction example"
+        }
+      ]
+    },
+    {
+      "name": "SpringWater",
+      "website": "https://springwater.tech/",
+      "country": "Lithuania / Europe",
+      "kind": "acquirer",
+      "relevance": "Acquires controlling stakes in European founder-led software businesses and backs search funds; potential direct buyer-side technology DD and technical risk screening.",
+      "contactChannel": "hello@springwater.tech",
+      "sources": [
+        {
+          "url": "https://springwater.tech/",
+          "note": "Acquisition and search fund strategies and published email"
+        },
+        {
+          "url": "https://springwater.tech/team",
+          "note": "Justas Paulauskas CEO; Olga Kuzminskaja origination and operations"
+        }
+      ]
+    },
+    {
+      "name": "Atlas Technology Group",
+      "website": "https://atlastechgroup.com/",
+      "country": "United States",
+      "kind": "advisor",
+      "relevance": "Software-only investment bank with buy-side, carve-out and cross-border M&A; site lists October 2026 transaction. Larger institution and lower probability of outsourcing.",
+      "contactChannel": "https://atlastechgroup.com/",
+      "sources": [
+        {
+          "url": "https://atlastechgroup.com/",
+          "note": "Software M&A, team, 2026 deals, contact form near page bottom"
+        }
+      ]
+    },
+    {
+      "name": "Aethron Dynamics",
+      "website": "https://aethrondynamics.com/",
+      "country": "United States",
+      "kind": "acquirer",
+      "relevance": "Self-described San Francisco permanent software acquirer since 2025; small publicly listed portfolio and limited verified acquisition history, therefore lower-confidence prospect.",
+      "contactChannel": "hello@aethrondynamics.com",
+      "sources": [
+        {
+          "url": "https://aethrondynamics.com/",
+          "note": "Public company self-description, portfolio, acquisition criteria and contact"
+        }
+      ]
+    }
+  ]
+}
